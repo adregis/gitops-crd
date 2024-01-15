@@ -11,7 +11,7 @@ spec:
   applicationPlans:
     plan01:
       name: "My Plan 01"
-      setupFee: "00.00"
+      setupFee: "00.10"
   policies:
     - configuration:
         http_proxy: http://example.com

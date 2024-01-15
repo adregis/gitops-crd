@@ -10,7 +10,7 @@ spec:
   project: default 
   source: 
     path: ./
-    repoURL: https://github.com/redhat-developer-demos/openshift-gitops-examples
+    repoURL: https://github.com/adregis/gitops-crd
     targetRevision: main
   syncPolicy: 
     automated:

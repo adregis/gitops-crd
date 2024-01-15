@@ -7,5 +7,3 @@ spec:
   name: Operated Backend 1
   privateBaseURL: 'https://api.example.com'
   systemName: backend1
-providerAccountRef:
-    name: tenant-secret

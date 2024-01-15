@@ -5,6 +5,3 @@ metadata:
 spec:
   productCRName: product1
   production: true
-  deleteCR: true
-#  providerAccountRef:
-#    name: tenant-secret

@@ -23,14 +23,16 @@ spec:
       enabled: true
       name: apicast
       version: builtin
-  # authentication:
-  #   oidc:
-  #     issuerType: "keycloak"
-  #     issuerEndpoint: "https://myclientid:myclientsecret@mykeycloack.example.com/auth/realms/myrealm"
-  #     authenticationFlow:
-  #       standardFlowEnabled: false
-  #       implicitFlowEnabled: true
-  #       serviceAccountsEnabled: true
-  #       directAccessGrantsEnabled: true
-  #     jwtClaimWithClientID: "azp"
-  #     jwtClaimWithClientIDType: "plain"  
+  deployment:
+    apicastHosted:
+      authentication:
+        oidc:
+          issuerType: "keycloak"
+          issuerEndpoint: "https://myclientid:myclientsecret@mykeycloack.example.com/auth/realms/myrealm"
+          authenticationFlow:
+            standardFlowEnabled: false
+            implicitFlowEnabled: true
+            serviceAccountsEnabled: true
+            directAccessGrantsEnabled: true
+          jwtClaimWithClientID: "azp"
+          jwtClaimWithClientIDType: "plain" 

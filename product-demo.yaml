@@ -25,7 +25,7 @@ spec:
       version: builtin
     - configuration:
         auth_type: user_key
-        user_key: 1234567890
+        user_key: 690034f529beaa66d36360465c736217
       enabled: true
       name: default_credentials
       version: builtin

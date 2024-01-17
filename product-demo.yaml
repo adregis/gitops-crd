@@ -29,10 +29,10 @@ spec:
       enabled: true
       name: default_credentials
       version: builtin
-    - configuration: {}
-      enabled: true
-      name: apicast
-      version: builtin   
+    # - configuration: {}
+    #   enabled: true
+    #   name: apicast
+    #   version: builtin   
   # deployment:
   #   apicastHosted:
   #     authentication:

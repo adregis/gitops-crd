@@ -5,4 +5,4 @@ metadata:
 spec:
   productCRName: product1
   production: true
-  deleteCR: true
+  deleteCR: false

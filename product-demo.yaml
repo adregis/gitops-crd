@@ -14,16 +14,6 @@ spec:
       setupFee: "00.10"
   policies:
     - configuration:
-        http_proxy: http://example.com
-        https_proxy: https://example.com
-      enabled: true
-      name: camel
-      version: builtin
-    - configuration: {}
-      enabled: true
-      name: apicast
-      version: builtin
-    - configuration:
         auth_type: user_key
         user_key: 690034f529beaa66d36360465c736217
       enabled: true
@@ -33,6 +23,12 @@ spec:
       enabled: true
       name: apicast
       version: builtin   
+    - configuration:
+        http_proxy: http://example.com
+        https_proxy: https://example.com
+      enabled: true
+      name: camel
+      version: builtin
   # deployment:
   #   apicastHosted:
   #     authentication:

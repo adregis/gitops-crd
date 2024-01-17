@@ -13,16 +13,16 @@ spec:
       name: "My Plan 01"
       setupFee: "00.10"
   policies:
-    - configuration:
-        http_proxy: http://example.com
-        https_proxy: https://example.com
-      enabled: true
-      name: camel
-      version: builtin
-    - configuration: {}
-      enabled: true
-      name: apicast
-      version: builtin
+    # - configuration:
+    #     http_proxy: http://example.com
+    #     https_proxy: https://example.com
+    #   enabled: true
+    #   name: camel
+    #   version: builtin
+    # - configuration: {}
+    #   enabled: true
+    #   name: apicast
+    #   version: builtin
     - configuration:
         auth_type: user_key
         user_key: 1234567890

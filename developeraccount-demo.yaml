@@ -4,6 +4,3 @@ metadata:
   name: developeraccount2
 spec:
   orgName: Ecorp
-#  providerAccountRef:
-#    name: tenant-secret
-

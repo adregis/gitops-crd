@@ -15,7 +15,7 @@ spec:
   policies:
     - configuration:
         auth_type: user_key
-        user_key: 690034f529beaa66d36360465c736217
+        user_key: your-user-key
       enabled: true
       name: default_credentials
       version: builtin

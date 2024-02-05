@@ -15,6 +15,6 @@ spec:
   productCR:
     name: product1
   suspend: false
-  # serviceRef:
+  serviceRef:
   #   name: product1
   userKey: "your-user-key"  

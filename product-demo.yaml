@@ -12,23 +12,28 @@ spec:
     plan01:
       name: "My Plan 01"
       setupFee: "00.10"
-  policies:
-    - configuration:
-        auth_type: user_key
-        user_key: your-user-key
-      enabled: true
-      name: default_credentials
-      version: builtin
-    - configuration: {}
-      enabled: true
-      name: apicast
-      version: builtin   
-    - configuration:
-        http_proxy: http://example.com
-        https_proxy: https://example.com
-      enabled: true
-      name: camel
-      version: builtin
+  mappingRules:
+    - httpMethod: GET
+      increment: 1
+      metricMethodRef: hits
+      pattern: /    
+#  policies:
+#    - configuration:
+#        auth_type: user_key
+#        user_key: your-user-key
+#      enabled: true
+#      name: default_credentials
+#      version: builtin
+#    - configuration: {}
+#      enabled: true
+#      name: apicast
+#      version: builtin   
+#    - configuration:
+#        http_proxy: http://example.com
+#        https_proxy: https://example.com
+#      enabled: true
+#      name: camel
+#      version: builtin
   # deployment:
   #   apicastHosted: 
   #     authentication:
